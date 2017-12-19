@@ -1,7 +1,6 @@
 package no1s.premier;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -11,27 +10,12 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
 
 import org.xml.sax.SAXException;
 
-/**
- * スクレイピングを実施するクラス
- * @author seo
- */
 public class Scraping {
-	// div class="rc"のh3 class="r"のoriginal_target属性がリンク先、<a>の値がタイトル
 	public static final String SEARCH_URL = "https://www.google.co.jp/search?q=%E6%B2%96%E7%B8%84%E3%80%80%E9%AB%98%E7%B4%9A%E3%83%9B%E3%83%86%E3%83%AB";
-	public static final String EXP_TITLE = "//div[@class='rc']/h3[@class='r']/a";
-	public static final String EXP_LINK = "//div[@class='rc']/h3[@class='r']/a/@data-href";
 	
 	public static void main(String... args) {
 		ArrayList<String> responseList = null;
