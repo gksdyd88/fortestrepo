@@ -1,8 +1,8 @@
 # 12月プレミアテスト  
 ## TwitterAPI  
-## src/no1s/premier/Twitter.java  
-## メインメソッドを実行してください(引数無し)。  
-## 下記は動作確認時の出力結果です。  
+### src/no1s/premier/Twitter.java  
+### メインメソッドを実行してください(引数無し)。  
+### 下記は動作確認時の出力結果です。  
 <pre>
 Tue Dec 19 11:23:40 +0000 2017
 Stocks and the economy have a long way to go after the Tax Cut Bill is totally understood and appreciated in scope and size. Immediate expensing will have a big impact. Biggest Tax Cuts and Reform EVER passed. Enjoy, and create many beautiful JOBS!
@@ -39,9 +39,9 @@ Over the past 11 months, I have travelled tens of thousands of miles, to visit 1
 </pre>
 
 ## WebScraping  
-## src/no1s/premier/Twitter.java  
-## メインメソッドを実行してください(引数無し)。  
-## 下記は動作確認時の出力結果です。  
+### src/no1s/premier/Twitter.java  
+### メインメソッドを実行してください(引数無し)。  
+### 下記は動作確認時の出力結果です。  
 <pre>
 至極のオーシャンビュー！沖縄で絶対泊まりたい高級ホテルランキング ...
 https://retrip.jp/articles/2476/
